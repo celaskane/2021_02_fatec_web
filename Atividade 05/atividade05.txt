@@ -1,0 +1,10 @@
+Instruções
+1-Crie um css em cascata para criar uma página que represente a imagem abaixo:
+
+http://professor.norton.net.br/wp-content/uploads/2016/03/estilocascata.png
+
+2-Utilizando Media Queries, construa no mesmo CSS a versão para tela formato retrato
+
+http://professor.norton.net.br/wp-content/uploads/2016/09/retrato.png
+
+3- Crie uma versão de CSS responsivo com media queries do exercicio PW04
