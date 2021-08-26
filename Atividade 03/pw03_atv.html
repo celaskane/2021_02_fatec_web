@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="pt">
+    <head>
+        <title>Atividade 03 - Programação Web</title>
+    </head>
+
+    <body>
+        <h1><font color="red" size="16px" face="century">Contato</font></h1><br/>
+        <i><font size="4px">Seja bem vindo, preencha o <b>formulário</b> abaixo para:</font></i><br/>
+        <ul>
+            <li>Duvidas</li>
+            <li>Sugestões</li>
+            <li>Críticas</li>
+            <li>Orçamentos</li>
+        </ul>
+        <p>Caso queira ver nossos produtos, clique <a href="https://www.google.com" target="new">aqui</a></p>
+        <br/>
+        <form method="POST">
+            nome:
+            <input type="text" id="txtNome" placeholder="digite seu nome completo" size="70" 
+            maxlength="70" required /><br/>
+            email:
+            <input type="email" id="txtEmail" placeholder="digite seu email" size="70" maxlength="70" required /><br/>
+            telefone:
+            <input type="text" id="txtFone" placeholder="digite seu telefone" required
+            pattern="[0-9]{5}-[0-9]{4}" size="68" maxlength="10"><br/>
+            assunto:
+            <select id="Dúvidas">
+                <option>Dúvida 1</option>
+                <option>Dúvida 2</option>
+                <option>Dúvida 3</option>
+            </select><br/>
+            Deseja receber uma cópia deste e-mail:
+            <input type="radio" name="opcao" value="op1"/>
+		    sim
+		    <input type="radio" name="opcao" value="op2"/>
+		    não<br/>
+            mensagem:
+            <textarea id="txtMensagem" rows="5"
+		    cols="50" placeholder="digite sua mensagem" required></textarea><br/><br/>
+            <button id="bt1">Enviar</button>
+        </form>
+    </body>
+</html>
