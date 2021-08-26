@@ -1,0 +1,20 @@
+Leandro de Assis Madeira
+FATEC Ipiranga
+Eletiva de Proramação I - Programação WEB
+
+1) Descreva as motivações para o desenvolvimento de aplicações baseadas em internet.
+
+As motivações para o desenvolvimento de aplicações baseadas em internet são diversas e, entre elas, podemos citar:
+disponibilidade de um sistema quando integrado à internet, podendo ser acessado de qualquer lugar e a qualquer momento; 
+portabilidade para diversos dispositivos e plataformas; segurança através dos protocolos de redes de computadores, permitindo sistemas privados à grupos seletos ou até mesmo a anonimidade do usuário de um sistema web;
+configurações comuns ao grupo de usuários de aplicações baseadas em internet, considerando que atualizações são feitas simultaneamente;
+integração entre diferentes dispositivos, facilitando o acesso e a utilização de sistemas web;
+esalabilidade permitindo um crescimento constante das aplicações web;
+ubiquidade, conceito recente, representando a onipresença da internet e das aplicações web, podendo ser utilizadas desde computadores pessoais, telefones celulares, até relógios e ultimamente até em itens domésticos, como acontece nas smart houses.
+
+2) Quais as funções de um servidor de aplicação? 
+Armazenar páginas e arquivos, cuidar da segurança, gerenciar conexões e configurar sites.
+
+3) Quais as diferenças de um página dinamica e uma página estatica?
+As páginas estáticas tem o objetivo em distribuir conteúdos majoritariamente em texto, vídeo, áudio e imagem.
+As páginas dinâmicas são páginas que integram a disseminação de conteúdo e a aplicação de linguagens de programação, permitem a consulta a banco de dados, acesso a arquivos e integrações com servições.
