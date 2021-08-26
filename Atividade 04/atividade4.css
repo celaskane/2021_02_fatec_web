@@ -1,0 +1,46 @@
+/*seletor por tag*/
+body{
+	background-color: gray;
+	color: white;
+	font-family: arial;
+}
+input, textarea{
+	background-color: yellow !important; /*não recomendado*/
+	color: black;
+	border: solid 1px black;
+	margin: 5px;
+}
+label{
+	width: 100px;
+	text-align: right;
+	display: inline-table;
+	vertical-align: top;
+	padding-top: 2px;
+}
+/*seletor por id*/
+#txtEmail{
+	background-color: orange;
+}
+#bt1{
+	width: 25%;
+	height: 60px;
+	background-color: white;
+	border: solid 2px purple;
+	color: purple;
+	border-radius: 15px;
+}
+/*seletor por apelido*/
+.titulo
+{
+	color: lime;
+	border-bottom: dotted 5px lime;
+}
+.box{
+	width: 50%;
+	margin-right: 25%;
+	margin-left: 25%;
+	background-color: #333333;
+	border: solid 2px white;
+	padding: 10px;
+	box-shadow: 5px 10px 8px 10px black;
+}
