@@ -37,7 +37,14 @@ function div(){
         chk1.checked = true;
         var a = parseFloat(n1.value);
         var b = parseFloat(n2.value);
-        var c = a/b;
+        if(b != 0){
+            var c = a/b;
         resultado.value = c;
+        }
+        else{
+            alert("Impossível dividir por zero.");
+            chk1.checked = false;
+            return 0;
+        }
     }
 }
