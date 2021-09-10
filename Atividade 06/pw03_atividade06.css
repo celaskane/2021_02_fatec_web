@@ -1,0 +1,7 @@
+body{
+    background-color: darkgrey;
+}
+.list-group{
+    text-align: center;
+    display: block;
+}

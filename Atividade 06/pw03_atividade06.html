@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+	<head> 
+		<title>Correção Atividade PW03</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+	</head>
+	<body>
+        <div class="container p-3 my-3 bg-dark text-white">
+            <h1 class="text text-danger">Contato</h1>
+	        <br/><br/><i>Seja bem vindo, preencha o <b>formulário</b> abaixo para:</i>
+        </div>
+
+        <div class="list-group">
+            <ul class="list-group-flush">
+                <li class="list-group-item">duvidas</li>
+                <li class="list-group-item">sugestões</li>
+                <li class="list-group-item">criticas</li>
+                <li class="list-group-item">Orçamentos</li>
+            </ul>
+            <p class="text">Caso queira ver nossos produtos, clique
+                <a href="produtos.pdf">aqui</a>.</p>
+        </div>
+        
+        <div class="form">
+            <div class="form-group">
+                <label for="nome">Nome:</label>
+                <input type="text" class="form-control" placeholder="Digite seu nome" id="txtNome" size="50" maxlength="45" required>
+            </div>
+            <div class="form-group">
+                <label for="email">E-mail:</label>
+                <input type="email" class="form-control" placeholder="Digite seu e-mail" id="txtEmail" size="60" maxlength="55" required>
+            </div>
+            <div class="form-group">
+                <label for="nome">Telefone:</label>
+                <input type="text" class="form-control" placeholder="Digite seu telefone" id="txtTelefone" size="30" required pattern="[0-9]{4,5}-[0-9]{4}" title="Informe um telefone no formato 99999-9999">
+            </div>
+            <div class="form-group">
+                <label for="nome">Assunto:</label>
+                <select name="Assunto" id="assunto">
+                    <option value="1">Dúvidas</option>
+                    <option value="2">Sugestões</option>
+                    <option value="3">Críticas</option>
+                    <option value="4">Orçamentos</option>
+                </select>
+            </div>
+            <div class="input">
+                <p>Deseja receber uma copia deste e-mail:</p>
+                <input type="radio" id="Op1" name="receber" />
+                Sim
+                <input type="radio" id="Op2" name="receber" />
+                Não
+            </div>
+            <div class="textarea">
+                <textarea id="msg" cols="40" rows="4" required placeholder="digite sua mensagem"></textarea>
+            </div>
+            <div class="button">
+                <button id="bt1">Enviar</button>
+            </div>
+        </div>
+    <!--<form>
+	nome:<input type="text" id="txtNome" size="50" maxlength="45"
+	placeholder="digite seu nome" required /><br/>
+	email:<input type="email" id="txtEmail" size="60" placeholder="digite seu email" maxlength="55" required /><br/>
+	telefone:<input type="text" id="txtTelefone" size="30" placeholder="digite seu telefone" required pattern="[0-9]{4,5}-[0-9]{4}" title="Informe um telefone no formato 99999-9999"  /><br/>
+	assunto:<select id="assunto">
+			<option value="1">Duvidas</option>
+			<option value="2">sugestões</option>
+			<option value="3">Criticas</option>
+			<option value="4">orçamentos</option>
+			</select><br/>
+	Deseja receber uma copia deste e-mail:
+	<input type="radio" id="Op1" name="receber" />
+	Sim
+	<input type="radio" id="Op2" name="receber" />
+	Não <br/>
+	mensagem:
+	<textarea id="msg" rows="4" cols="40" required placeholder="digite sua mensagem"></textarea><br/>
+	<button id="bt1">Enviar</button>
+	</form>-->
+	</body>
+</html>
