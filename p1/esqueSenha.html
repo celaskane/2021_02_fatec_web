@@ -4,49 +4,76 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
-        <title>loja</title>
-        <link rel="stylesheet" href="p1.css" />
+        <title>Menta Esqueci a senha</title>
+        <link rel="stylesheet" href="p1.1.css" />
+        <script lang="javascript" src="#"></script>
     </head>
 
     <body>
-        <div class="title">
-            <h1 class="titulo">Loja... a sua loja mais loja</h1>
-        </div>
+      <div class="cabecalho p-1">
+
+        <!-- primeira barra -->
+        <nav class="primeirabarra navbar">
+          <!-- logo -->
+          <a class="logo navbar-brand" href="p1.html">
+            <img src="./imagens/shop-16.png"  width="60" height="50"  alt="">
+          </a>
     
-        <!-- TESTE -->
+          <h1 class="titulo slogan text-center">Menta</h1>
     
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="p1.html">Home</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
+          <!-- pesquisa -->
+          <form class="pesquisa form-inline">
+            <input class="barrapesquisa form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+            <!-- <button class="btn btn-success my-2 my-sm-0" type="submit">
+              <a href="busca.html">
+                <img src="https://cdn0.iconfinder.com/data/icons/very-basic-2-android-l-lollipop-icon-pack/24/search-512.png" width="20" height="20">
+              </a>
+            </button> -->
+            <a class="btnpesquisa navbar-brand" href="busca.html">
+              <img src="Imagens/search_icon.png" width="30" height="30">
+            </a>
+          </form>
     
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="sobre.html">Sobre a loja <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contato.html">Contato</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Serviços
-                  </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="paglogin.html">Cadastro</a>
-                            <a class="dropdown-item" href="#">Produtos</a>
-                            <!-- <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Something else here</a> -->
-                        </div>
-                    </li>
-                </ul>
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Search">
-                    <button class="btn btn-success" type="submit" id="botao">Pesquisar</button>
-                </form>
-            </div>
+          <!-- cadastro -->
+          <a class="cadastro navbar-brand" href="paglogin.html">
+            <img src="./imagens/lah.png" width="60" height="60" alt="">
+          </a>
         </nav>
+          
+        <!-- barra menu -->
+        <nav class="barramenu m-1 navbar navbar-expand-sm navbar-light bg-light">
+    
+          <button class="navbar-toggler bg-light" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
+            <span class="navbar-toggler-icon"></span>
+            Menu
+          </button>
+    
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav bg-light">
+    
+              <li class="nav-item active">
+                <a class="nav-link" href="sobre.html">Sobre a loja<span class="sr-only"></span></a>
+              </li>
+    
+              <li class="nav-item active">
+                <a class="nav-link" href="contato.html">Contato<span class="sr-only"></span></a>
+              </li>
+    
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Serviços
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="cadastro.html">Cadastro</a>
+                  <a class="dropdown-item" href="cesta.html">Carrinho</a>
+                </div>
+              </li>
+    
+            </ul>
+          </div>
+        </nav>
+      </div>
+    
 
         <div class="container mt-3">
             <div class="form-group">
