@@ -6,7 +6,7 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
         <title>Menta Cadastro</title>
         <link rel="stylesheet" href="p1.1.css" />
-        <script lang="javascript" src="#"></script>
+        <script lang="javascript" src="vali.js"></script>
     </head>
     <body>
       <div class="cabecalho p-1">
@@ -63,7 +63,7 @@
                 Serviços
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="cadastro.html">Cadastro</a>
+                  <a class="dropdown-item" href="paglogin.html">Cadastro</a>
                   <a class="dropdown-item" href="cesta.html">Carrinho</a>
                 </div>
               </li>
@@ -85,7 +85,7 @@
             </div>
             <div class="form-group">
                 <label for="senha">Senha</label>
-                <input type="text" class="form-control" id="senha">
+                <input type="password" class="form-control" id="senha">
             </div>
             <div class="form-group">
                 <label for="cpf">CPF</label>
@@ -95,7 +95,51 @@
                 <label for="telefone">Telefone</label>
                 <input type="text" class="form-control" id="telefone">
             </div>
-            <button class="btn btn-success">Confirma</button>
+            <div class="form-group">
+              <label for="endereco">Endereço</label>
+              <input type="text" class="form-control" id="endereco">
+            </div>
+            <button class="btn btn-success" onclick="validar();">Confirma</button>
         </div>
     </body>
 </html>
+
+<script lang="javascript">
+  function validar() {
+    if(!reNome.test(nome.value)){
+      alert("preencha o seu nome!");
+      nome.focus();
+      return false;
+	    }	
+    if(!reEmail.test(email.value)){
+        alert("Informe um email valido !");
+        email.focus();
+        email.value="";
+        return false;
+      }
+    if(!reSenhaForte.test(senha.value)){
+      alert("preencha uma senha alfanumerica com ao menos 8 caracteres!");
+      senha1.focus();
+      senha1.value = "";
+      return false;
+    }
+    if(!reCPF.test(cpf.value)){
+      alert("Informe um cpf valido !");
+      cpf.focus();
+      cpf.value="";
+      return false;
+    }
+    if(!reTelefone.test(telefone.value)){
+      alert("Informe um telefone valido !");
+      telefone.focus();
+      telefone.value="";
+      return false;
+    }
+    //if(!reEndereco.test(endereco.value)){
+    //  alert("Informe um endereço valido !");
+    //  endereco.focus();
+    //  endereco.value="";
+    //  return false;
+    //}
+  }
+</script>
